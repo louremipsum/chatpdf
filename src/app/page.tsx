@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { UserButton, auth } from "@clerk/nextjs";
 import Link from "next/link";
 import { IconLogin2 } from "@tabler/icons-react";
-import FileUpload from "@/components/ui/FileUpload";
+import FileUpload from "@/components/FileUpload";
 
 export default async function Home() {
   const { userId } = await auth();
